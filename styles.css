@@ -1,0 +1,15 @@
+.tile {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  transition: 0.3s ease-in-out;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.tile.selected {
+  background-color: dodgerblue;
+  border-radius: 100%;
+}
